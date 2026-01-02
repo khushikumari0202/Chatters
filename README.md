@@ -141,15 +141,27 @@ CLOUDINARY_API_SECRET=your_api_secret
 * Auto message scroll
 * Socket connection per authenticated user
 
+
 ---
 
-## 📸 Screens (Optional)
+## 📸 Screens 
 
 * Signup Page
+  <img width="1904" height="1025" alt="signup" src="https://github.com/user-attachments/assets/c01bb57a-3799-4242-813e-815c8347e789" />
 * Login Page
+  <img width="1919" height="1034" alt="login" src="https://github.com/user-attachments/assets/5c44c98b-be5e-4305-a16e-ae21061e1e20" />
+
 * Chat Dashboard
+  -user 1
+   <img width="1919" height="976" alt="user1" src="https://github.com/user-attachments/assets/c9a62f0a-fdee-4da8-b174-3a6b3f7ef836" />
+
+  -user 2
+   <img width="1919" height="1028" alt="user2" src="https://github.com/user-attachments/assets/51a91630-a51e-497c-8fb1-c2ec2adc567e" />
+
 * Online / Offline Status
+  <img width="1919" height="1024" alt="offline status" src="https://github.com/user-attachments/assets/70a9a278-82ee-48b4-a2e1-1d081f776c56" />
 * Edit Profile Page
+  <img width="1604" height="986" alt="edit profile" src="https://github.com/user-attachments/assets/516931d6-8190-41a8-8fbe-1176fce8f9e2" />
 
 ---
 
