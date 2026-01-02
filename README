@@ -34,7 +34,7 @@ npm run dev
 ```
 Opens at http://localhost:5173[1]
 
-### Backend
+## Backend
 ```
 mkdir server && cd server
 npm init -y
@@ -44,17 +44,17 @@ npm run dev  # or npm run server
 ```
 Configure `.env` with MongoDB URI, JWT secret, Cloudinary keys.[1]
 
-## Project Structure
+##Project Structure
 - `client/`: React frontend
 - `server/`: Node.js backend
 GitHub: https://github.com/khushikumari0202/Chatters[1]
 
-## Key Highlights
+##Key Highlights
 - Tailwind CSS with custom fonts and scrollbars
 - Components: Sidebar (users/search), ChatContainer (messages), RightSidebar (profile/media)
 - Socket.io for real-time: messages, status updates, unread badges[1]
 
-## Future Enhancements
+##Future Enhancements
 - Group chats
 - Typing indicators
 - Message reactions
@@ -63,4 +63,3 @@ GitHub: https://github.com/khushikumari0202/Chatters[1]
 - Extended file sharing
 - Dark mode[1]
 
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77849276/6e71c865-02dc-4a26-a248-8c40c147c90f/Chat-app.docx)
