@@ -1,11 +1,5 @@
-Got it 👍
-Below is a **clean, professional `README.md`** you can **copy-paste directly** into your GitHub repo for **Chatters**.
-No extra explanation — just the README content.
 
----
-
-```md
-# 💬 Chatters — Real-Time Chat Application (MERN)
+## 💬 Chatters — Real-Time Chat Application (MERN)
 
 Chatters is a full-stack **real-time chat application** built using the **MERN stack** and **Socket.io**.  
 It allows users to sign up, log in, search for contacts, chat instantly, share images, view online status, and manage their profiles.
@@ -189,12 +183,3 @@ Computer Science & Engineering | MERN Stack Developer
 
 ```
 
----
-
-If you want:
-- a **short README**
-- a **resume-friendly README**
-- or **add screenshots section properly**
-
-just tell me 👍
-```
