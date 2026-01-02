@@ -1,0 +1,184 @@
+
+## 💬 Chatters — Real-Time Chat Application (MERN)
+
+Chatters is a full-stack **real-time chat application** built using the **MERN stack** and **Socket.io**.  
+It allows users to sign up, log in, search for contacts, chat instantly, share images, view online status, and manage their profiles.
+
+---
+
+## 🚀 Features
+
+- User Authentication (Signup / Login)
+- Real-time messaging using Socket.io
+- Online / Offline user status
+- One-to-one private chats
+- Image sharing in chat
+- Unread message counter
+- Search users
+- Profile update with avatar upload
+- Responsive three-column layout
+  - Sidebar (users)
+  - Chat window
+  - Profile panel
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Socket.io Client
+- React Hot Toast
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- Socket.io
+- JWT Authentication
+- Bcrypt.js
+- Cloudinary (image upload)
+- Dotenv
+
+---
+
+## 📂 Project Structure
+
+```
+
+Chatters/
+│
+├── client/                 # React frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── assets/
+│   │   └── App.jsx
+│   └── package.json
+│
+├── server/                 # Backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── socket/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+
+````
+
+---
+
+## ⚡ Quick Setup
+
+### ✅ Prerequisites
+- Node.js (v18+)
+- MongoDB Atlas
+- Cloudinary Account
+- Git
+
+---
+
+## 🖥 Frontend Setup
+
+```bash
+cd client
+npm install
+npm install react-hot-toast axios socket.io-client
+npm run dev
+````
+
+Frontend will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 Backend Setup
+
+```bash
+cd server
+npm init -y
+npm install express mongoose socket.io cors dotenv bcryptjs jsonwebtoken nodemon
+npm run server
+```
+
+Backend will run at:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file inside the `server` folder:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+
+---
+
+## 🔄 Real-Time Functionality
+
+* Instant message delivery via Socket.io
+* Live online/offline status updates
+* Unread message indicators
+* Auto message scroll
+* Socket connection per authenticated user
+
+---
+
+## 📸 Screens (Optional)
+
+* Signup Page
+* Login Page
+* Chat Dashboard
+* Online / Offline Status
+* Edit Profile Page
+
+---
+
+## 🔮 Future Enhancements
+
+* Group chats
+* Typing indicators
+* Message reactions
+* Voice messages
+* Push notifications
+* File sharing (PDFs, docs)
+* Dark mode toggle
+
+---
+
+## 🔗 GitHub Repository
+
+👉 [https://github.com/khushikumari0202/Chatters]
+
+---
+
+## 👩‍💻 Author
+
+**Khushi Kumari**
+Computer Science & Engineering | MERN Stack Developer
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!
+
+```
+
