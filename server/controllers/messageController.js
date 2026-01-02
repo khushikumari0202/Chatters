@@ -3,7 +3,7 @@ import { User } from "../models/User.js";
 import cloudinary from "../lib/cloudinary.js";
 import { io, userSocketMap } from "../server.js";
 
-export const getUserForSidebar = async (Req, res) => {
+export const getUserForSidebar = async (req, res) => {
     try {
         const userId = req.user._id;
         const filteredUsers = await User.find({_id: {$ne: userId}}).select("-password");
